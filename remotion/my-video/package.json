@@ -1,0 +1,21 @@
+{
+  "name": "my-video",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "remotion preview",
+    "build": "remotion render src/index.ts Exploded3DPieChart out/video.mp4"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.8.2",
+    "@remotion/cli": "^4.0.540",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.540",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.187.0"
+  }
+}
